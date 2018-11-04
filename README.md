@@ -8,7 +8,8 @@
 ```
 
  ### Create a storage account
- ```az storage account create \
+ ```
+ az storage account create \
     --name storagequickstart \
     --resource-group yournewresourcegroup \
     --location westus \
