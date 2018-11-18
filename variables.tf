@@ -27,6 +27,6 @@ variable "location" {
 
 variable "k8s_version" {
   description = "Version of Kubernetes to use"
-  default = "1.11.2"
+  default = "1.11.4"
 }
 
