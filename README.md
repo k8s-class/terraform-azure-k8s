@@ -20,6 +20,12 @@
 ```
 az ad sp create-for-rbac --name ServicePrincipalName --password PASSWORD
 ```
+### Create a container
+```
+az storage container create -n tfstate --account-name epiccs --account-key youraccountkey
+
+```
+
 
 ### Run your terraform code
 ```
